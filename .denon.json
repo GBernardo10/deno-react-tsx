@@ -1,0 +1,16 @@
+{
+  "files": ["src/index.tsx"],
+  "quiet": false,
+  "debug": true,
+  "fullscreen": true,
+  "extensions": [".ts", ".tsx"],
+  "interval": 500,
+  "watch": ["src/"],
+  "deno_args": ["--allow-net", "--unstable"],
+  "execute": {
+    ".ts": ["deno", "run"],
+    ".tsx": ["deno", "run"]
+  },
+  "fmt": false,
+  "test": false
+}
